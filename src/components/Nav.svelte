@@ -84,10 +84,14 @@
 			width: 6rem;
 			border-radius: 0px;
 			height: 100%;
+			display: flex;
+			justify-content: center;
 
 			.nav-wrapper {
+				position: fixed;
 				flex-direction: column;
 				margin-top: 20rem;
+
 
 				li {
 				margin: 2rem 0;
