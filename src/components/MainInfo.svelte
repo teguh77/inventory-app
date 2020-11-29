@@ -43,8 +43,6 @@
         .main-info {
             position: absolute;
 
-
-
             img {
                 position: fixed;
                 left: 1rem;
@@ -54,7 +52,7 @@
             i {
                 position: fixed;
                 left: 1.3rem;
-                bottom: calc(100vh - 66rem);
+                bottom: calc(100% - 63rem);
             }
         }
     }
@@ -67,9 +65,18 @@
             }
              i {
                 left: 1.8rem;
-                bottom: calc(100vh - 67rem);
             }
         }
+    }
+
+    @media screen and(min-width: 1280px) {
+        .main-info {
+            i {
+                left: 1.8rem;
+                bottom: calc(100% - 64rem);
+            }
+        }
+
     }
 
 </style>

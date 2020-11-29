@@ -49,7 +49,7 @@
 			li {
 
 				&.active {
-					margin-top: -5rem;
+					margin-top: -3rem;
 
 					a {
 
@@ -97,7 +97,7 @@
 				margin: 2rem 0;
 
 				&.active {
-					margin: 2rem -5rem 2rem 0;
+					margin: 2rem -3rem 2rem 0;
 					box-shadow: unset;
 					box-shadow: 5px 0 5px -5px #777;
 					clip-path: inset(0px -15px -10px 0px round 15px);
