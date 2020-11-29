@@ -49,7 +49,7 @@
 			li {
 
 				&.active {
-					margin-top: -5rem;
+					margin-top: -3rem;
 
 					a {
 
@@ -84,16 +84,20 @@
 			width: 6rem;
 			border-radius: 0px;
 			height: 100%;
+			display: flex;
+			justify-content: center;
 
 			.nav-wrapper {
+				position: fixed;
 				flex-direction: column;
 				margin-top: 20rem;
+
 
 				li {
 				margin: 2rem 0;
 
 				&.active {
-					margin: 2rem -5rem 2rem 0;
+					margin: 2rem -3rem 2rem 0;
 					box-shadow: unset;
 					box-shadow: 5px 0 5px -5px #777;
 					clip-path: inset(0px -15px -10px 0px round 15px);

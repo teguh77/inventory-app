@@ -42,18 +42,17 @@
     @media screen and(min-width: 768px) {
         .main-info {
             position: absolute;
-            padding: 0;
 
             img {
-                position: absolute;
+                position: fixed;
                 left: 1rem;
-                top: 3rem;
+                top: 2rem;
             }
 
             i {
-                position: absolute;
+                position: fixed;
                 left: 1.3rem;
-                top: 59rem;
+                bottom: calc(100% - 63rem);
             }
         }
     }
@@ -62,11 +61,22 @@
         .main-info {
             img {
                 left: 1.4rem;
-                top: 3rem;
+                top: 2rem;
             }
              i {
                 left: 1.8rem;
             }
         }
     }
+
+    @media screen and(min-width: 1280px) {
+        .main-info {
+            i {
+                left: 1.8rem;
+                bottom: calc(100% - 64rem);
+            }
+        }
+
+    }
+
 </style>
